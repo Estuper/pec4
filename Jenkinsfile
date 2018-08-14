@@ -28,7 +28,7 @@ stages {
                     sh "cd sonar"
                 }
                 sonar{
-                    def scannerHome = tool 'SonarQube Scanner 3.2.0.1227';
+                    def scannerHome = tool 'SonarQube Scanner';
                     withSonarQubeEnv('SonarQube') {
                     sh "${scannerHome}/bin/sonar-scanner"
                                                 }
