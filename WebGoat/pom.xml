@@ -272,7 +272,7 @@
                  <!-- Build doesn't fail if problems are found -->
                 <failOnError>false</failOnError>
                 <!-- Reports all bugs (other values are medium and max) -->
-                <threshold>Low</threshold>
+                <threshold>High</threshold>
                 <!-- Produces XML report -->
                 <xmlOutput>true</xmlOutput>
                 <!-- Configures the directory in which the XML report is created -->
